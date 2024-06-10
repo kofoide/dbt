@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: dvdrental
+      database: warehouse
+      schema: dvdrental
+      tables:
+        - name: actor
+          description: a list of the actors in all the dvds
